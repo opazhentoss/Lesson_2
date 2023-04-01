@@ -14,7 +14,8 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.second_activity);
         editText=findViewById(R.id.editTextTextPersonName2);
         Bundle extras = getIntent().getExtras();
-        String
+        String value = extras.getString("key");
+        editText.setText(value);
     }
 
     @Override

@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Lesson  2"
 include ':app'
+include ':app:intentfilter'
+include ':app:toastapp'
+include ':app:notificationapp'
+include ':app:dialog'
